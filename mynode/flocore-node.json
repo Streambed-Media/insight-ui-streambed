@@ -1,0 +1,30 @@
+{
+  "version": "5.0.7",
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "mempool",
+    "address",
+    "block",
+    "db",
+    "fee",
+    "flosight-api",
+    "flosight-ui",
+    "header",
+    "p2p",
+    "timestamp",
+    "transaction",
+    "web"
+  ],
+  "datadir": "/Users/Eddie/.flocore/data",
+  "servicesConfig": {
+    "flosight-api": {
+      "cwdRequirePath": "node_modules/flosight-api",
+      "routePrefix": "api"
+    },
+    "flosight-ui": {
+      "cwdRequirePath": "./",
+      "routePrefix": ""
+    }
+  }
+}

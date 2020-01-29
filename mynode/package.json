@@ -1,0 +1,12 @@
+{
+  "description": "A full Florincoin node build with Flocore",
+  "repository": "https://github.com/user/project",
+  "license": "MIT",
+  "readme": "README.md",
+  "dependencies": {
+    "flocore-lib": "^v0.15.2",
+    "flocore-node": "^5.0.7",
+    "flosight-api": "^5.0.0-beta.75",
+    "flosight-ui": "^5.0.0-beta.72"
+  }
+}
